@@ -678,7 +678,7 @@ var getBoxShadow$1 = function (_a) {
     }
     return theme.card.boxShadow;
 };
-var StyledCard = styled__default['default'].div(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 8px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 8px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"])), function (_a) {
+var StyledCard = styled__default['default'].div(templateObject_1$B || (templateObject_1$B = __makeTemplateObject(["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 6px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"], ["\n  background-color: ", ";\n  border: ", ";\n  border-radius: 6px;\n  box-shadow: ", ";\n  color: ", ";\n  overflow: hidden;\n  position: relative;\n\n  ", "\n"])), function (_a) {
     var theme = _a.theme;
     return theme.card.background;
 }, function (_a) {
@@ -2145,19 +2145,19 @@ var links = [
         items: [
             {
                 label: 'FairPlay Technology',
-                href: 'https://docs.neutronswap.com/fair-play-technology/anti-botters',
+                href: 'https://docs.lynxdefi.com/fair-play-technology/anti-botters',
             },
             {
                 label: 'Automatic Emission Reduction',
-                href: 'https://docs.neutronswap.com/tokenomics/automatic-emission-reduction',
+                href: 'https://docs.lynxdefi.com/tokenomics/automatic-emission-reduction',
             },
             {
                 label: 'Automatic Liquidity',
-                href: 'https://docs.neutronswap.com/tokenomics/automatic-liquidity',
+                href: 'https://docs.lynxdefi.com/tokenomics/automatic-liquidity',
             },
             {
                 label: 'Automatic Burning',
-                href: 'https://docs.neutronswap.com/tokenomics/automatic-burning',
+                href: 'https://docs.lynxdefi.com/tokenomics/automatic-burning',
             }
         ],
     },
@@ -2167,7 +2167,7 @@ var links = [
         items: [
             {
                 label: 'PancakeSwap (Available on launch)',
-                href: 'https://pancakeswap.info/token/0x357Ee5b0B8c270Bd4ED5a517d0f086878Cd96F8E',
+                href: 'https://pancakeswap.info/token/',
             },
             {
                 label: 'AstroTools (Available on launch)',
@@ -2175,7 +2175,7 @@ var links = [
             },
             {
                 label: 'PooCoin (Available on launch)',
-                href: 'https://poocoin.app/tokens/0x357ee5b0b8c270bd4ed5a517d0f086878cd96f8e',
+                href: 'https://poocoin.app/tokens/',
             },
         ],
     },
@@ -2185,19 +2185,19 @@ var links = [
         items: [
             {
                 label: 'Audits',
-                href: 'https://docs.neutronswap.com/security/audits',
+                href: 'https://docs.lynxdefi.com/security/audits',
             },
             {
                 label: 'No Migrator Code',
-                href: 'https://docs.neutronswap.com/security/no-migrator-code',
+                href: 'https://docs.lynxdefi.com/security/no-migrator-code',
             },
             {
                 label: 'Emergency Withdraw',
-                href: 'https://docs.neutronswap.com/security/time-lock',
+                href: 'https://docs.lynxdefi.com/security/time-lock',
             },
             {
                 label: 'Timelock',
-                href: 'https://docs.neutronswap.com/security/emergency-withdraw',
+                href: 'https://docs.lynxdefi.com/security/emergency-withdraw',
             },
         ],
     },
@@ -2211,11 +2211,11 @@ var links = [
             },
             {
                 label: 'Docs',
-                href: 'https://docs.neutronswap.com/',
+                href: 'https://docs.lynxdefi.com/',
             },
             {
-                label: 'Blog',
-                href: 'https://neutronswap.medium.com/',
+                label: 'GitHub',
+                href: 'https://github.com/LynxDefi',
             },
         ],
     },
@@ -2224,17 +2224,17 @@ var socials = [
     {
         label: "Telegram",
         icon: "TelegramIcon",
-        href: "https://t.me/NeutronSwap"
+        href: "https://t.me/LynxDefi"
     },
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/NeutronSwap",
+        href: "https://twitter.com/defi_lynx",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/NeutronSwap",
+        href: "https://www.reddit.com/r/LynxDefi/",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2811,7 +2811,7 @@ var brandColors = {
 var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#531dab", textDisabled: "#BDC2C4", textSubtle: "#8f80ba", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#d3adf7", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#efdbff", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#1890ff", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#1890ff", textDisabled: "#666171", textSubtle: "#c9c4d4", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 

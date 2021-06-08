@@ -39,19 +39,19 @@ export const links =[
     items: [
       {
         label: 'FairPlay Technology',
-        href: 'https://docs.neutronswap.com/fair-play-technology/anti-botters',
+        href: 'https://docs.lynxdefi.com/fair-play-technology/anti-botters',
       },
       {
         label: 'Automatic Emission Reduction',
-        href: 'https://docs.neutronswap.com/tokenomics/automatic-emission-reduction',
+        href: 'https://docs.lynxdefi.com/tokenomics/automatic-emission-reduction',
       },
       {
         label: 'Automatic Liquidity',
-        href: 'https://docs.neutronswap.com/tokenomics/automatic-liquidity',
+        href: 'https://docs.lynxdefi.com/tokenomics/automatic-liquidity',
       },
       {
         label: 'Automatic Burning',
-        href: 'https://docs.neutronswap.com/tokenomics/automatic-burning',
+        href: 'https://docs.lynxdefi.com/tokenomics/automatic-burning',
       }
     ],
   },
@@ -61,7 +61,7 @@ export const links =[
     items: [
       {
         label: 'PancakeSwap (Available on launch)', // tochange name
-        href: 'https://pancakeswap.info/token/0x357Ee5b0B8c270Bd4ED5a517d0f086878Cd96F8E',
+        href: 'https://pancakeswap.info/token/',
       },
       {
         label: 'AstroTools (Available on launch)',
@@ -69,7 +69,7 @@ export const links =[
       },
       {
         label: 'PooCoin (Available on launch)',
-        href: 'https://poocoin.app/tokens/0x357ee5b0b8c270bd4ed5a517d0f086878cd96f8e',
+        href: 'https://poocoin.app/tokens/',
       },
     ],
   },
@@ -79,19 +79,19 @@ export const links =[
     items: [
       {
         label: 'Audits',
-        href: 'https://docs.neutronswap.com/security/audits',
+        href: 'https://docs.lynxdefi.com/security/audits',
       },
       {
         label: 'No Migrator Code',
-        href: 'https://docs.neutronswap.com/security/no-migrator-code',
+        href: 'https://docs.lynxdefi.com/security/no-migrator-code',
       },
       {
         label: 'Emergency Withdraw',
-        href: 'https://docs.neutronswap.com/security/time-lock',
+        href: 'https://docs.lynxdefi.com/security/time-lock',
       },
       {
         label: 'Timelock',
-        href: 'https://docs.neutronswap.com/security/emergency-withdraw',
+        href: 'https://docs.lynxdefi.com/security/emergency-withdraw',
       },
     ],
   },
@@ -105,11 +105,11 @@ export const links =[
       },
       {
         label: 'Docs',
-        href: 'https://docs.neutronswap.com/',
+        href: 'https://docs.lynxdefi.com/',
       },
       {
-        label: 'Blog',
-        href: 'https://neutronswap.medium.com/',
+        label: 'GitHub',
+        href: 'https://github.com/LynxDefi',
       },
     ],
   },
@@ -119,19 +119,20 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    href: "https://t.me/NeutronSwap"
+    href: "https://t.me/LynxDefi"
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/NeutronSwap",
+    href: "https://twitter.com/defi_lynx",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/NeutronSwap",
+    href: "https://www.reddit.com/r/LynxDefi/",
   },
 ];
+
 
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
