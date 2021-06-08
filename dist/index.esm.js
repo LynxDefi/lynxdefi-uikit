@@ -2103,7 +2103,7 @@ var links = [
         items: [
             {
                 label: 'Exchange',
-                href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x357Ee5b0B8c270Bd4ED5a517d0f086878Cd96F8E', // tochange add in token
+                href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=', // toChange
             },
             {
                 label: 'Liquidity',
@@ -2112,84 +2112,95 @@ var links = [
         ],
     },
     {
-        label: 'Farms',
+        label: 'Stake',
         icon: 'FarmIcon',
-        href: '/farms',
-    },
-    {
-        label: 'Nests',
-        icon: 'PoolIcon',
-        href: '/nests',
-    },
-    {
-        label: 'Referrals',
-        icon: 'GroupsIcon',
-        href: '/referrals',
-    },
-    {
-        label: 'Features',
-        icon: 'RoadmapIcon',
         items: [
             {
-                label: 'FairPlay Technology',
-                href: 'https://docs.lynxdefi.com/fair-play-technology/anti-botters',
+                label: 'Farm',
+                href: '/farms',
             },
             {
-                label: 'Automatic Emission Reduction',
-                href: 'https://docs.lynxdefi.com/tokenomics/automatic-emission-reduction',
-            },
-            {
-                label: 'Automatic Liquidity',
-                href: 'https://docs.lynxdefi.com/tokenomics/automatic-liquidity',
-            },
-            {
-                label: 'Automatic Burning',
-                href: 'https://docs.lynxdefi.com/tokenomics/automatic-burning',
+                label: 'Nest',
+                href: '/nests',
             }
         ],
     },
     {
-        label: 'Charts',
+        label: 'Referral',
+        icon: 'GroupsIcon',
+        href: '/referrals',
+    },
+    {
+        label: 'Layered Farming',
+        icon: 'LayerIcon',
+        href: '/comingsoon',
+    },
+    {
+        label: 'Anti-Bots',
+        icon: 'NftIcon',
+        items: [
+            {
+                label: 'Max Buyable Restriction',
+                href: 'https://docs.lynxdefi.com/features/antibots-defence',
+            },
+            {
+                label: 'Black listing',
+                href: 'https://docs.lynxdefi.com/features/black-list-antibot',
+            }
+        ],
+    },
+    {
+        label: 'Deflationary Measures',
+        icon: 'TicketIcon',
+        items: [
+            {
+                label: 'Automatic Emission Reduction',
+                href: 'https://docs.lynxdefi.com/features/automatic-emission-reduction',
+            },
+            {
+                label: 'Automatic Liquidity',
+                href: 'https://docs.lynxdefi.com/features/automatic-liquidity',
+            },
+            {
+                label: 'Automatic Burning',
+                href: 'https://docs.lynxdefi.com/features/automatic-burning',
+            }
+        ],
+    },
+    {
+        label: 'Analytics',
         icon: 'InfoIcon',
         items: [
             {
-                label: 'PancakeSwap (Available on launch)',
+                label: 'PancakeSwap',
                 href: 'https://pancakeswap.info/token/',
             },
             {
-                label: 'AstroTools (Available on launch)',
-                href: 'https://app.astrotools.io/pancake-pair-explorer/', // egg-bnb token here.
-            },
-            {
-                label: 'PooCoin (Available on launch)',
-                href: 'https://poocoin.app/tokens/',
+                label: 'PooCoin',
+                href: 'https://poocoin.app/',
             },
         ],
     },
     {
-        label: 'Security and Audits',
+        label: 'Security',
         icon: 'AuditIcon',
         items: [
             {
-                label: 'Audits',
-                href: 'https://docs.lynxdefi.com/security/audits',
-            },
-            {
                 label: 'No Migrator Code',
-                href: 'https://docs.lynxdefi.com/security/no-migrator-code',
+                href: 'https://docs.lynxdefi.com/security-and-audits/no-migrator-code',
             },
             {
                 label: 'Emergency Withdraw',
-                href: 'https://docs.lynxdefi.com/security/time-lock',
+                href: 'https://docs.lynxdefi.com/security-and-audits/time-lock',
             },
             {
                 label: 'Timelock',
-                href: 'https://docs.lynxdefi.com/security/emergency-withdraw',
+                href: 'https://docs.lynxdefi.com/security-and-audits/emergency-withdraw',
             },
         ],
     },
     {
-        label: 'Links',
+        label: 'Socials',
         icon: 'MoreIcon',
         items: [
             {
@@ -2200,12 +2211,8 @@ var links = [
                 label: 'Docs',
                 href: 'https://docs.lynxdefi.com/',
             },
-            {
-                label: 'GitHub',
-                href: 'https://github.com/LynxDefi',
-            },
         ],
-    },
+    }
 ];
 var socials = [
     {
