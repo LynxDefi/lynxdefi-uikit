@@ -101,7 +101,7 @@ export const links =[
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/NeutronSwap/',
+        href: 'https://github.com/LynxDefi/',
       },
       {
         label: 'Docs',
