@@ -2352,8 +2352,8 @@ var PanelFooter = function (_a) {
                 React.createElement(Icon$T, null))));
     }
     return (React.createElement(Container, null,
-        React.createElement("a", { href: "https://rugdoc.io/project/lynxdefi" },
-            React.createElement(Button, null,
+        React.createElement(SocialEntry, null,
+            React.createElement("a", { href: "https://rugdoc.io/project/lynx-defi" },
                 React.createElement("img", { src: "https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png", alt: "badge" }))),
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank" },

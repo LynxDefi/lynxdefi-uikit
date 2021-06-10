@@ -77,7 +77,9 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
-      <a href="https://rugdoc.io/project/lynxdefi"><Button><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="badge"/></Button></a>
+      <SocialEntry>
+      <a href="https://rugdoc.io/project/lynx-defi"><img src="https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png" alt="badge"/></a>
+      </SocialEntry>
       <SocialEntry>
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank">

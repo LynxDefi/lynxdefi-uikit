@@ -2365,8 +2365,8 @@ var PanelFooter = function (_a) {
                 React__default['default'].createElement(Icon$T, null))));
     }
     return (React__default['default'].createElement(Container, null,
-        React__default['default'].createElement("a", { href: "https://rugdoc.io/project/lynxdefi" },
-            React__default['default'].createElement(Button, null,
+        React__default['default'].createElement(SocialEntry, null,
+            React__default['default'].createElement("a", { href: "https://rugdoc.io/project/lynx-defi" },
                 React__default['default'].createElement("img", { src: "https://rugdoc.io/assets/2021/06/rugdoc-review-badge-with-glow.png", alt: "badge" }))),
         React__default['default'].createElement(SocialEntry, null,
             cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: priceLink, target: "_blank" },
